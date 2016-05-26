@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+   background:white;
+    
+}
+
+#menu{
+     display: block;
+     margin:auto;
+     margin-top:0;
+     width: auto;
+     height: 0px;
+     max-width:300px;
+     position: static;
+     
+
+}
+
+#logo{
+    display: block;
+    margin: auto;
+    margin-top:90px;
+    width: auto;
+    max-width:100px;
+    position: static;
+    
+}
+
+#empaques{
+    display: block;
+    margin: auto;
+    margin-top:30px;
+    width: auto;
+    max-width:200px;
+    position: static;
+   
+}
+
+#menupack{
+    display: block;
+    margin: auto;
+    margin-top:-60px;
+    width: auto;
+    height: 0;
+    max-width:295px;
+    position: static;
+    
+}
+
+@media (max-width: 480px){
+    form{
+        width: 100%;
+    }

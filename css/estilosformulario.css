@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+   background:white;
+    
+}
+
+#menu{
+     display: block;
+     margin:auto;
+     margin-top:0;
+     width: auto;
+     height: 0px;
+     max-width:0;
+     position: static;
+     left:200px;
+
+}
+
+
+#mapa{
+     display: block;
+     margin:auto;
+     margin-top:0;
+     width: auto;
+     max-width:360px;
+     position: static;
+     left:200px;
+
+}
+
+#logo{
+    display: block;
+    margin: auto;
+    margin-top: 0;
+    width: auto;
+    max-width:100px;
+    position: static;
+    left:200px;
+  
+    
+}
+
+h4{
+    color: #ff5346;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: caviar dreams;
+    
+    
+}
+#contenedor{
+    display: block;
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    margin-left: 600px;
+    position: static;
+             }
+    
+
+
+
+#redes{
+    
+    display: block;
+    margin: auto;
+    margin-top: 0;
+    width: auto;
+    max-width:170px;
+    position: static;
+    left:200px;
+    
+    
+}
+
+    
+form{
+    width: 450px;
+    margin: auto; 
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    }
+
+h2{
+    color: #ff5346;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: caviar dreams;
+    
+}
+
+input , textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-family: caviar dreams;
+    color: #ff5346;
+   
+
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+   
+}
+
+#boton{
+    background:#ffe7e6;
+    color:#ff5346;
+    font-weight: bold;
+    padding: 10px;
+} 
+
+#boton:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 480px){
+    form{
+        width: 100%;
+    }
+    
+@font-face{
+    font-family:caviar dreamas;
+    src:url(fuentes/caviar dreams.ttf)
+    
+           
+    
+}
+
+
+
+
+
+
+  

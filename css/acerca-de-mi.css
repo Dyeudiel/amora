@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face{
+    font-family:caviar dreamas;
+    src:url(fuentes/caviar dreams.ttf)
+    
+
+body{
+    background:url(../imagen/fondoblanco.png) ;
+    background-size: 480px 800px;
+    background-repeat:no-repeat;
+    
+}
+
+#menu{
+     display: block;
+     margin:auto;
+     margin-top:20px;
+     width: auto;
+     height: 0px;
+     max-width:1400px;
+     position: static;
+     
+
+}
+
+.logo{
+    width: 160px;
+    height: 160px;
+    margin-top: 140px;
+    margin-left: 137px;
+    
+}
+
+
+#fotoperfil{
+    width:180px;
+    height:180px;
+    margin-left:330px;
+    margin-top: -170px;
+}
+
+#textoperfil{
+    text-align: justify;
+    margin-top: 45px;
+    padding-left: 40px;
+    color: black;
+    font-family: caviar dreams,sans-serif;
+    
+}
+
+#fotoempaque{
+    width:180px;
+    height:180px;
+    margin-left:30px;
+    margin-top: -160px;
+}
+
+#textoaptitudes{
+    text-align: justify;
+    margin-top: 40px;
+    padding-left: 270px;
+    color: black;
+    font-family: caviar dreams,sans-serif;
+    
+}
+
+    
+@media (max-width: 480px){
+    form{
+        width: 100%;
+    }
